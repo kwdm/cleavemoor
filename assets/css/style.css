@@ -1,0 +1,19 @@
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    max-width: 393px; /* Limit the maximum width to 393 pixels */
+  }
+  
+  .image-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Set the height to fill the vertical viewport */
+    overflow-y: scroll; /* Enable vertical scrolling */
+  }
+  
+  .image-container img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Preserve aspect ratio */
+  }
+  
